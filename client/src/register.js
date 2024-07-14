@@ -29,7 +29,7 @@ const Register = () => {
         }
 
         try {
-            const response = await axios.post('https://dev-mania-xi.vercel.app/register', formData, {
+            const response = await axios.post('https://dev-mania-silk.vercel.app/register', formData, {
                 headers: {
                     'Content-Type': 'application/json',
                 }

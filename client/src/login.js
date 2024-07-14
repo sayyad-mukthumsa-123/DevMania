@@ -18,7 +18,7 @@ const Login = () => {
     const submitHandler = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post('https://dev-mania-xi.vercel.app//login', data);
+            const res = await axios.post('https://dev-mania-silk.vercel.app/login', data);
             localStorage.setItem('token',res.data.token)
             // Assuming a successful login redirects to the dashboard or homepage
             navigate('/allprofiles');
